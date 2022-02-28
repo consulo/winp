@@ -23,9 +23,7 @@ WinP Library includes native libraries for all supported platforms, hence it can
 
 ## Platform support
 
-The library supports _x86_ and _amd64_ architectures.
-ARM architecture is not supported.
-Please raise an issue to the library if you need ARM support && ready to provide proper test environment.
+The library supports _x86_,_amd64_,_arm64_ architectures.
 
 :exclamation: It is **not recommended** to use WinP with _32bit_ Java on a _64bit_ operating system. 
 In such case the library will be running in the WoW64 mode; 
@@ -38,6 +36,7 @@ The current version of WinP is known to work correctly on the following Windows 
 
 * Windows XP SP2 and above
 * Windows Server 2003 and above
+* Windows 10 21H1(19043.1566) ARM
 
 Other Windows product lines are not being actively tested though WinP may work there.
 

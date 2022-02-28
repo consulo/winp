@@ -1,4 +1,5 @@
 .idea
+.consulo
 *.iml
 *.ipr
 *.iws
@@ -7,6 +8,8 @@ Debug
 Release
 ipch
 x64
+ARM64
+.vs/
 *.filters
 *.ncb
 *.opensdf
